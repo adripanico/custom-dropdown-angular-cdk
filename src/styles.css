@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap/dist/css/bootstrap-grid.css";
+@import "~bootstrap/dist/css/bootstrap-reboot.css";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.separator {
+  flex: 1;
+}
