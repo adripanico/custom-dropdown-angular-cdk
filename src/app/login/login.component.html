@@ -1,7 +1,7 @@
 <button mat-button (click)="open()" cdkOverlayOrigin>Login</button>
 
 <ng-template>
-  <div class="login-menu-wrapper">
+  <div class="login-menu-wrapper" [@slideContent]="animationState">
     <form (ngSubmit)="onSubmit()" [formGroup]="loginForm">
 
       <div>

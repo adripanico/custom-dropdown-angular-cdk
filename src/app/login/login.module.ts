@@ -6,6 +6,7 @@ import { PortalModule } from '@angular/cdk/portal';
 import { MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 import { LoginComponent } from './login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LayoutModule } from '@angular/cdk/layout';
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatButtonModule,
     MatInputModule,
     MatFormFieldModule,
+    LayoutModule,
 
     OverlayModule,
   ],
